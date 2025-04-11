@@ -1,4 +1,5 @@
-package numberofgoodpairs1512
+// https://leetcode.cn/problems/number-of-good-pairs/?envType=study-plan-v2&envId=primers-list
+package a06numberofgoodpairs1512
 
 func numIdenticalPairs(nums []int) int {
 	cnt := 0

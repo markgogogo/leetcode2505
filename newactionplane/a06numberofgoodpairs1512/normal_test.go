@@ -1,4 +1,4 @@
-package numberofgoodpairs1512
+package a06numberofgoodpairs1512
 
 import "testing"
 
@@ -15,7 +15,7 @@ func TestNumIdenticalPairs(t *testing.T) {
 	}
 
 	for _, test := range tests {
-		result := numIdenticalPairs(test.nums)
+		result := numIdenticalPairs1(test.nums)
 		if result != test.expected {
 			t.Errorf("numIdenticalPairs(%v) = %d; expected %d", test.nums, result, test.expected)
 		}
